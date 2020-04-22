@@ -1,0 +1,16 @@
+{
+    "ajax": true,
+    "compact": true,
+    "disable_array_add": true,
+    "disable_array_delete": true,
+    "disable_array_reorder": true,
+    "enable_array_copy": true,
+    "disable_collapse": true,
+    "disable_edit_json": true,
+    "disable_properties": true,
+    "iconlib": "bootstrap3",
+    "theme": "bootstrap3",
+    "required_by_default": true,
+    "show_errors": "interaction",
+    "template":"underscore"
+}
