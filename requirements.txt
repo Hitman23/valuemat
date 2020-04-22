@@ -19,7 +19,7 @@ cssselect==1.1.0
 cssselect2==0.2.1
 defusedxml==0.6.0
 diff-match-patch==20181111
-Django==2.1
+Django==2.2.10
 django-allauth==0.39.1
 django-appconf==1.0.3
 django-bootstrap-datepicker-plus==3.0.5
