@@ -44,10 +44,15 @@ Airports
 Transportation companies
 
 Mask producer
+	Type (small, mid, large)
+		< 100 day (small)
+		> 150 day (mid)
+		> 300 day (large)
+
 	e-mail, 
 	WhatsApp No. 
-	google location coordinates (this by allowing user to do on search on our interface, we then save  only the coordinates.
-
+	google location coordinates 
+		(this by allowing user to do on search on our interface, we then save  only the coordinates.
 Schools
 Hotels
 Manufacturers / Factories
