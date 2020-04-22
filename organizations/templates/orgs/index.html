@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% load bootstrap4 static staticfiles fontawesome humanize %}
+{% bootstrap_css %}
+{% bootstrap_javascript jquery='full' %}
+
+{% block content %}
+<div class="row col-lg-12">
+    <div class="top_display col-lg-4">
+        <p>Total number of orgs</p>
+        <h2>45</h2>
+    </div>
+    <div class="topdisplay col-lg-4">
+        <p>Total number of orgs</p>
+        <h2>45</h2>
+    </div>
+    <div class="topdisplay col-lg-4">
+        <p>Total number of orgs</p>
+        <h2>45</h2>
+    </div>
+</div>
+{% endblock %}
+{% block js %}
+
+<script type="text/javascript">
+$(document).ready(function(){
+// TODO add google maps 
+});
+
+</script>
+{% endblock %}
