@@ -1,11 +1,12 @@
 from django.contrib import admin
 from django.conf import settings
 from django.urls import path, include
+from organizations.views import IndexView
 
 urlpatterns = [
-    path('orgs/', include('organizations.urls'), name="orgs"),
     path('admin/', admin.site.urls),
     path("accounts/", include("allauth.urls")),
+    path('orgs/', IndexView.as_view(), name="orgs"),
     path("select2/", include("django_select2.urls")),
 ]
 if settings.DEBUG:
