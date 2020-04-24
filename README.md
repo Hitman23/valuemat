@@ -35,18 +35,12 @@ workon valuemat
 
 # Install requirements
 pip3 install -r requirements.txt
-
-
-# export DJANGO_SETTINGS_MODULE
-```bash
-    export DJANGO_SETTINGS_MODULE=5453949390evbdg93i94iri390
-```
     
-# set the proper DJANGO_SETTINGS_MODULE
-export DJANGO_SETTINGS_MODULE=services.settings.local
-
 # Create the database
 createdb valuemat
+
+# set the proper DJANGO_SETTINGS_MODULE
+export DJANGO_SETTINGS_MODULE=valuemat.settings.local
 
 # Migrate
 python manage.py migrate
