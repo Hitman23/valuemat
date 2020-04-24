@@ -27,7 +27,7 @@
     createdb valuemat
     
     # set the proper DJANGO_SETTINGS_MODULE
-    export DJANGO_SETTINGS_MODULE=services.settings.local
+    export DJANGO_SETTINGS_MODULE=valuemat.settings.local
     
     # Migrate
     python manage.py migrate
