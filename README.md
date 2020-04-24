@@ -7,16 +7,16 @@ Resosuce map link
 [virtualenvwrapper](http://virtualenvwrapper.readthedocs.org/en/latest/install.html)
 
 ```bash
-    pip install virtualenv virtualenvwrapper 
+pip install virtualenv virtualenvwrapper 
 ```
 
 
 add it to shell startup file (.zshrc):
 
 ```bash
-    export WORKON_HOME=$HOME/.virtualenvs
-    export PROJECT_HOME=$HOME/dev
-    source /usr/local/bin/virtualenvwrapper.sh
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/dev
+source /usr/local/bin/virtualenvwrapper.sh
 ```
 
 ## DEVELOPMENT
