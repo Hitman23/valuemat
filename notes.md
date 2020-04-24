@@ -16,7 +16,7 @@ To finance future development advertisement will be key too and positioning. Don
 ## Navigation
 Chatbot can lead visitor through system such as greeting, asking for what is search and location. With our data in hand, suggestions can be given according to request and location.  Eg. Visitor says he is in Germany and needs mask. Here we refer to a site (if we know) that might help further with the info’s that we currently hold dataset only for Uganda or countries to add).
 
-##Map 
+## Map 
 Map gives an overview. Once location is known it should zoom in that area. Once need is known, only those providers should be listed. A click on one reveals the data (such as name, how many supplied, rating, link to contacts).
 
 Integration is key – for such an API is key from start. Upload should be possible too such as list of Hotels.
@@ -24,11 +24,11 @@ Integration is key – for such an API is key from start. Upload should be possi
 Statistics is key, such as most searches, so we focus on getting more data in those areas. While giving also priorities by asking – are you a fashion designer, can you make masks, do yo?
 
  
-##GUI
+## GUI
 	Map / List
 	analytics / statistics (details in Backend)
 
-##Objects
+## Objects
 
 NGO’s
 	Food?
@@ -43,7 +43,15 @@ Airports
 
 Transportation companies
 
-Mask producer 
+Mask producer
+	Type (small, mid, large)
+		< 100 day (small)
+		> 150 day (mid)
+		> 300 day (large)
+	e-mail, 
+	WhatsApp No. 
+	google location coordinates 
+		(this by allowing user to do on search on our interface, we then save  only the coordinates.
 Schools
 Hotels
 Manufacturers / Factories
@@ -82,9 +90,12 @@ Service providers
  
 ## Features 
 Multilingual (EN,FR, Local Language)
+Currency Converter
+	USD, CHF, EUR to all African currencies including Bitcoin and Ethereum (https://www.blockchain.com/prices)
+	Reverse us must (UGX to USD or USD to UGX)
 Chartbot
 Mapping
-Login (WhatsApp, email, verified twitter acc, phone)
+Login (WhatsApp, google, email, verified twitter acc, phone)
 	Allow change on entry by owner
 User rights (admin, edit only, view only, edit and view)
 Company / Service provider profile
