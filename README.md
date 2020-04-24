@@ -15,7 +15,7 @@
     cd valuemat
 
     # Make virtual environment
-    mkvirtualenv -ppython3 valuemat
+    mkvirtualenv -p python3 valuemat
 
     # Activate virtual environment
     workon valuemat
@@ -23,12 +23,18 @@
     # Install requirements
     pip3 install -r requirements.txt
     
-    # Create the database
-    createdb valuemat
-    
+
+    # export DJANGO_SETTINGS_MODULE
+    ´´´
+        export DJANGO_SETTINGS_MODULE=5453949390evbdg93i94iri390
+    ```
+        
     # set the proper DJANGO_SETTINGS_MODULE
     export DJANGO_SETTINGS_MODULE=services.settings.local
     
+    # Create the database
+    createdb valuemat
+
     # Migrate
     python manage.py migrate
     
@@ -48,3 +54,6 @@
 ## NOTE:
 -In order to do cross origin resource sharing requests, you have to whitelist the requesting domain in the settings.
 
+## Errors
+
+ERROR: jupyter-console 6.1.0 has requirement prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0, but you'll have prompt-toolkit 1.0.18 which is incompatible.
